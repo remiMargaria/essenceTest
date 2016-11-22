@@ -34,7 +34,7 @@
 - (void)sendPhotoWithBase64String:(NSString *)base64Str
 {
     NSError *error;
-    NSDictionary *body = @{@"name": @"lol", @"data" : base64Str};
+    NSDictionary *body = @{@"name": @"Photo", @"data" : base64Str};
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:body options:0 error:&error];
     NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
@@ -47,7 +47,7 @@
     [[manager dataTaskWithRequest:req completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
         if (!error) {
             
-            NSLog(@"Reply JSON: %@", responseObject);
+            NSLog(@"Reply: %@", responseObject);
         } else {
             NSLog(@"Error: %@, %@, %@", error, response, responseObject);
         }
