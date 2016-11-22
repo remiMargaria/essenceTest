@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132EBCD91DE2896700E41DA6 /* RMIWindowServiceManager_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 132EBCD81DE2896700E41DA6 /* RMIWindowServiceManager_test.m */; };
 		1396EE071DE241CB0082B94E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396EE061DE241CB0082B94E /* main.m */; };
 		1396EE0A1DE241CB0082B94E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396EE091DE241CB0082B94E /* AppDelegate.m */; };
-		1396EE0D1DE241CB0082B94E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396EE0C1DE241CB0082B94E /* ViewController.m */; };
-		1396EE101DE241CB0082B94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1396EE0E1DE241CB0082B94E /* Main.storyboard */; };
 		1396EE121DE241CB0082B94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1396EE111DE241CB0082B94E /* Assets.xcassets */; };
 		1396EE151DE241CB0082B94E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1396EE131DE241CB0082B94E /* LaunchScreen.storyboard */; };
 		1396EE201DE241CC0082B94E /* TechnicalTestRMargariaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396EE1F1DE241CC0082B94E /* TechnicalTestRMargariaTests.m */; };
+		1396EE321DE2484E0082B94E /* RMIWindowServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396EE311DE2484E0082B94E /* RMIWindowServiceManager.m */; };
+		1396EE361DE24C680082B94E /* RMIHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396EE351DE24C680082B94E /* RMIHomePageViewController.m */; };
+		1396EE391DE24CB60082B94E /* RMIHomePageStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1396EE381DE24CB60082B94E /* RMIHomePageStoryBoard.storyboard */; };
+		1396EE3D1DE251FB0082B94E /* RMIHomePagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396EE3C1DE251FB0082B94E /* RMIHomePagePresenter.m */; };
+		1396EE441DE2525B0082B94E /* RMIHomePageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396EE431DE2525B0082B94E /* RMIHomePageInteractor.m */; };
+		1396EE481DE257B30082B94E /* RMIPhotoNetworkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396EE471DE257B30082B94E /* RMIPhotoNetworkModel.m */; };
+		1396EE511DE266550082B94E /* RMIPhotoViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1396EE501DE266550082B94E /* RMIPhotoViewerViewController.m */; };
+		1396EE541DE266960082B94E /* RMIPhotoViewerStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1396EE531DE266960082B94E /* RMIPhotoViewerStoryBoard.storyboard */; };
+		3DC825573D825522C1D6EE26 /* libPods-TechnicalTestRMargariaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E91BBE173FAD99140B9E0C /* libPods-TechnicalTestRMargariaTests.a */; };
+		E7D8452691E40D03D26301BC /* libPods-TechnicalTestRMargaria.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4426FBF10A6CCA57E8BA813E /* libPods-TechnicalTestRMargaria.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +36,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132EBCD81DE2896700E41DA6 /* RMIWindowServiceManager_test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMIWindowServiceManager_test.m; sourceTree = "<group>"; };
 		1396EE021DE241CB0082B94E /* TechnicalTestRMargaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicalTestRMargaria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1396EE061DE241CB0082B94E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1396EE081DE241CB0082B94E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1396EE091DE241CB0082B94E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1396EE0B1DE241CB0082B94E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1396EE0C1DE241CB0082B94E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1396EE0F1DE241CB0082B94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1396EE111DE241CB0082B94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1396EE141DE241CB0082B94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1396EE161DE241CC0082B94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1396EE1B1DE241CC0082B94E /* TechnicalTestRMargariaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechnicalTestRMargariaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1396EE1F1DE241CC0082B94E /* TechnicalTestRMargariaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechnicalTestRMargariaTests.m; sourceTree = "<group>"; };
 		1396EE211DE241CC0082B94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1396EE301DE2484D0082B94E /* RMIWindowServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMIWindowServiceManager.h; sourceTree = "<group>"; };
+		1396EE311DE2484E0082B94E /* RMIWindowServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMIWindowServiceManager.m; sourceTree = "<group>"; };
+		1396EE341DE24C680082B94E /* RMIHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMIHomePageViewController.h; sourceTree = "<group>"; };
+		1396EE351DE24C680082B94E /* RMIHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMIHomePageViewController.m; sourceTree = "<group>"; };
+		1396EE381DE24CB60082B94E /* RMIHomePageStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RMIHomePageStoryBoard.storyboard; sourceTree = "<group>"; };
+		1396EE3B1DE251FB0082B94E /* RMIHomePagePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMIHomePagePresenter.h; sourceTree = "<group>"; };
+		1396EE3C1DE251FB0082B94E /* RMIHomePagePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMIHomePagePresenter.m; sourceTree = "<group>"; };
+		1396EE421DE2525B0082B94E /* RMIHomePageInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMIHomePageInteractor.h; sourceTree = "<group>"; };
+		1396EE431DE2525B0082B94E /* RMIHomePageInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMIHomePageInteractor.m; sourceTree = "<group>"; };
+		1396EE461DE257B30082B94E /* RMIPhotoNetworkModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMIPhotoNetworkModel.h; sourceTree = "<group>"; };
+		1396EE471DE257B30082B94E /* RMIPhotoNetworkModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMIPhotoNetworkModel.m; sourceTree = "<group>"; };
+		1396EE4F1DE266550082B94E /* RMIPhotoViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMIPhotoViewerViewController.h; sourceTree = "<group>"; };
+		1396EE501DE266550082B94E /* RMIPhotoViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMIPhotoViewerViewController.m; sourceTree = "<group>"; };
+		1396EE531DE266960082B94E /* RMIPhotoViewerStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RMIPhotoViewerStoryBoard.storyboard; sourceTree = "<group>"; };
+		1C2BF2322FE628BDFED4388F /* Pods-TechnicalTestRMargariaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestRMargariaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechnicalTestRMargariaTests/Pods-TechnicalTestRMargariaTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C7554EC5B0589BA324C2759 /* Pods-TechnicalTestRMargariaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestRMargariaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TechnicalTestRMargariaTests/Pods-TechnicalTestRMargariaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4426FBF10A6CCA57E8BA813E /* libPods-TechnicalTestRMargaria.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TechnicalTestRMargaria.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		801119C3650D04E2CFB4D305 /* Pods-TechnicalTestRMargaria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestRMargaria.release.xcconfig"; path = "Pods/Target Support Files/Pods-TechnicalTestRMargaria/Pods-TechnicalTestRMargaria.release.xcconfig"; sourceTree = "<group>"; };
+		D7E91BBE173FAD99140B9E0C /* libPods-TechnicalTestRMargariaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TechnicalTestRMargariaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26E8853611BB5003B9A61E6 /* Pods-TechnicalTestRMargaria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TechnicalTestRMargaria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TechnicalTestRMargaria/Pods-TechnicalTestRMargaria.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D8452691E40D03D26301BC /* libPods-TechnicalTestRMargaria.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +82,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC825573D825522C1D6EE26 /* libPods-TechnicalTestRMargariaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		132EBCD71DE2891600E41DA6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				132EBCD81DE2896700E41DA6 /* RMIWindowServiceManager_test.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		1396EDF91DE241C90082B94E = {
 			isa = PBXGroup;
 			children = (
 				1396EE041DE241CB0082B94E /* TechnicalTestRMargaria */,
 				1396EE1E1DE241CC0082B94E /* TechnicalTestRMargariaTests */,
 				1396EE031DE241CB0082B94E /* Products */,
+				BE468612C5623AB140207487 /* Pods */,
+				9498C6E2A3492F510B132850 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +120,14 @@
 		1396EE041DE241CB0082B94E /* TechnicalTestRMargaria */ = {
 			isa = PBXGroup;
 			children = (
+				1396EE2E1DE247C70082B94E /* App */,
 				1396EE081DE241CB0082B94E /* AppDelegate.h */,
 				1396EE091DE241CB0082B94E /* AppDelegate.m */,
-				1396EE0B1DE241CB0082B94E /* ViewController.h */,
-				1396EE0C1DE241CB0082B94E /* ViewController.m */,
-				1396EE0E1DE241CB0082B94E /* Main.storyboard */,
 				1396EE111DE241CB0082B94E /* Assets.xcassets */,
-				1396EE131DE241CB0082B94E /* LaunchScreen.storyboard */,
+				1396EE2A1DE246630082B94E /* HomePage */,
+				1396EE4D1DE2650B0082B94E /* PhotoViewer */,
 				1396EE161DE241CC0082B94E /* Info.plist */,
+				1396EE131DE241CB0082B94E /* LaunchScreen.storyboard */,
 				1396EE051DE241CB0082B94E /* Supporting Files */,
 			);
 			path = TechnicalTestRMargaria;
@@ -105,10 +144,135 @@
 		1396EE1E1DE241CC0082B94E /* TechnicalTestRMargariaTests */ = {
 			isa = PBXGroup;
 			children = (
+				132EBCD71DE2891600E41DA6 /* Services */,
 				1396EE1F1DE241CC0082B94E /* TechnicalTestRMargariaTests.m */,
 				1396EE211DE241CC0082B94E /* Info.plist */,
 			);
 			path = TechnicalTestRMargariaTests;
+			sourceTree = "<group>";
+		};
+		1396EE2A1DE246630082B94E /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				1396EE3E1DE252020082B94E /* Interactors */,
+				1396EE451DE2577A0082B94E /* Models */,
+				1396EE3A1DE251C30082B94E /* Presenters */,
+				1396EE331DE24BD70082B94E /* ViewControllers */,
+				1396EE371DE24C730082B94E /* Views */,
+			);
+			name = HomePage;
+			sourceTree = "<group>";
+		};
+		1396EE2E1DE247C70082B94E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1396EE2F1DE247F10082B94E /* Services */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1396EE2F1DE247F10082B94E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1396EE301DE2484D0082B94E /* RMIWindowServiceManager.h */,
+				1396EE311DE2484E0082B94E /* RMIWindowServiceManager.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1396EE331DE24BD70082B94E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1396EE341DE24C680082B94E /* RMIHomePageViewController.h */,
+				1396EE351DE24C680082B94E /* RMIHomePageViewController.m */,
+			);
+			name = ViewControllers;
+			path = HomePage/ViewControllers;
+			sourceTree = "<group>";
+		};
+		1396EE371DE24C730082B94E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1396EE381DE24CB60082B94E /* RMIHomePageStoryBoard.storyboard */,
+			);
+			name = Views;
+			path = HomePage/Views;
+			sourceTree = "<group>";
+		};
+		1396EE3A1DE251C30082B94E /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				1396EE3B1DE251FB0082B94E /* RMIHomePagePresenter.h */,
+				1396EE3C1DE251FB0082B94E /* RMIHomePagePresenter.m */,
+			);
+			name = Presenters;
+			path = HomePage/Presenters;
+			sourceTree = "<group>";
+		};
+		1396EE3E1DE252020082B94E /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				1396EE421DE2525B0082B94E /* RMIHomePageInteractor.h */,
+				1396EE431DE2525B0082B94E /* RMIHomePageInteractor.m */,
+			);
+			name = Interactors;
+			path = HomePage/Interactors;
+			sourceTree = "<group>";
+		};
+		1396EE451DE2577A0082B94E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1396EE461DE257B30082B94E /* RMIPhotoNetworkModel.h */,
+				1396EE471DE257B30082B94E /* RMIPhotoNetworkModel.m */,
+			);
+			name = Models;
+			path = HomePage/Models;
+			sourceTree = "<group>";
+		};
+		1396EE4D1DE2650B0082B94E /* PhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1396EE4E1DE266160082B94E /* ViewControllers */,
+				1396EE521DE2665C0082B94E /* Views */,
+			);
+			path = PhotoViewer;
+			sourceTree = "<group>";
+		};
+		1396EE4E1DE266160082B94E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1396EE4F1DE266550082B94E /* RMIPhotoViewerViewController.h */,
+				1396EE501DE266550082B94E /* RMIPhotoViewerViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1396EE521DE2665C0082B94E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1396EE531DE266960082B94E /* RMIPhotoViewerStoryBoard.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9498C6E2A3492F510B132850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4426FBF10A6CCA57E8BA813E /* libPods-TechnicalTestRMargaria.a */,
+				D7E91BBE173FAD99140B9E0C /* libPods-TechnicalTestRMargariaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE468612C5623AB140207487 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F26E8853611BB5003B9A61E6 /* Pods-TechnicalTestRMargaria.debug.xcconfig */,
+				801119C3650D04E2CFB4D305 /* Pods-TechnicalTestRMargaria.release.xcconfig */,
+				3C7554EC5B0589BA324C2759 /* Pods-TechnicalTestRMargariaTests.debug.xcconfig */,
+				1C2BF2322FE628BDFED4388F /* Pods-TechnicalTestRMargariaTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,9 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1396EE241DE241CC0082B94E /* Build configuration list for PBXNativeTarget "TechnicalTestRMargaria" */;
 			buildPhases = (
+				1F4F8622E9675382E7BC0F3B /* [CP] Check Pods Manifest.lock */,
 				1396EDFE1DE241CA0082B94E /* Sources */,
 				1396EDFF1DE241CA0082B94E /* Frameworks */,
 				1396EE001DE241CA0082B94E /* Resources */,
+				6B791AE086D8CCFD29ECA3C5 /* [CP] Embed Pods Frameworks */,
+				150796C85BF37908E290420D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1396EE271DE241CC0082B94E /* Build configuration list for PBXNativeTarget "TechnicalTestRMargariaTests" */;
 			buildPhases = (
+				09424E170D2B25046B682ACD /* [CP] Check Pods Manifest.lock */,
 				1396EE171DE241CC0082B94E /* Sources */,
 				1396EE181DE241CC0082B94E /* Frameworks */,
 				1396EE191DE241CC0082B94E /* Resources */,
+				2C67A55A0873E6B683F33D45 /* [CP] Embed Pods Frameworks */,
+				F4C551AB4FF93FBE7E880174 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +330,7 @@
 				TargetAttributes = {
 					1396EE011DE241CA0082B94E = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 583W38G7AH;
 						ProvisioningStyle = Automatic;
 					};
 					1396EE1A1DE241CC0082B94E = {
@@ -194,8 +365,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1396EE151DE241CB0082B94E /* LaunchScreen.storyboard in Resources */,
+				1396EE391DE24CB60082B94E /* RMIHomePageStoryBoard.storyboard in Resources */,
 				1396EE121DE241CB0082B94E /* Assets.xcassets in Resources */,
-				1396EE101DE241CB0082B94E /* Main.storyboard in Resources */,
+				1396EE541DE266960082B94E /* RMIPhotoViewerStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,14 +380,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09424E170D2B25046B682ACD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		150796C85BF37908E290420D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TechnicalTestRMargaria/Pods-TechnicalTestRMargaria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F4F8622E9675382E7BC0F3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C67A55A0873E6B683F33D45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TechnicalTestRMargariaTests/Pods-TechnicalTestRMargariaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B791AE086D8CCFD29ECA3C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TechnicalTestRMargaria/Pods-TechnicalTestRMargaria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C551AB4FF93FBE7E880174 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TechnicalTestRMargariaTests/Pods-TechnicalTestRMargariaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1396EDFE1DE241CA0082B94E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1396EE0D1DE241CB0082B94E /* ViewController.m in Sources */,
+				1396EE321DE2484E0082B94E /* RMIWindowServiceManager.m in Sources */,
 				1396EE0A1DE241CB0082B94E /* AppDelegate.m in Sources */,
 				1396EE071DE241CB0082B94E /* main.m in Sources */,
+				1396EE441DE2525B0082B94E /* RMIHomePageInteractor.m in Sources */,
+				1396EE511DE266550082B94E /* RMIPhotoViewerViewController.m in Sources */,
+				1396EE481DE257B30082B94E /* RMIPhotoNetworkModel.m in Sources */,
+				1396EE361DE24C680082B94E /* RMIHomePageViewController.m in Sources */,
+				1396EE3D1DE251FB0082B94E /* RMIHomePagePresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132EBCD91DE2896700E41DA6 /* RMIWindowServiceManager_test.m in Sources */,
 				1396EE201DE241CC0082B94E /* TechnicalTestRMargariaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,14 +509,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1396EE0E1DE241CB0082B94E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1396EE0F1DE241CB0082B94E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1396EE131DE241CB0082B94E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,9 +610,12 @@
 		};
 		1396EE251DE241CC0082B94E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26E8853611BB5003B9A61E6 /* Pods-TechnicalTestRMargaria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 583W38G7AH;
 				INFOPLIST_FILE = TechnicalTestRMargaria/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.remimargaria.TechnicalTestRMargaria;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -358,9 +624,12 @@
 		};
 		1396EE261DE241CC0082B94E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801119C3650D04E2CFB4D305 /* Pods-TechnicalTestRMargaria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 583W38G7AH;
 				INFOPLIST_FILE = TechnicalTestRMargaria/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.remimargaria.TechnicalTestRMargaria;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -369,6 +638,7 @@
 		};
 		1396EE281DE241CC0082B94E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7554EC5B0589BA324C2759 /* Pods-TechnicalTestRMargariaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TechnicalTestRMargariaTests/Info.plist;
@@ -381,6 +651,7 @@
 		};
 		1396EE291DE241CC0082B94E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2BF2322FE628BDFED4388F /* Pods-TechnicalTestRMargariaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TechnicalTestRMargariaTests/Info.plist;
@@ -410,6 +681,7 @@
 				1396EE261DE241CC0082B94E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1396EE271DE241CC0082B94E /* Build configuration list for PBXNativeTarget "TechnicalTestRMargariaTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +690,7 @@
 				1396EE291DE241CC0082B94E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

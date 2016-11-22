@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RMIHomePageViewController.h
 //  TechnicalTestRMargaria
 //
 //  Created by Remi Margaria on 16-11-20.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RMIHomePageViewController : UIViewController
 
++ (RMIHomePageViewController *)viewController;
 
 @end
-

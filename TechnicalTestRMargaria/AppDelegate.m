@@ -7,16 +7,25 @@
 //
 
 #import "AppDelegate.h"
+#import "RMIWindowServiceManager.h"
 
 @interface AppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation AppDelegate {
+    UIWindow *_window;
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    RMIWindowServiceManager *windowManager = [[RMIWindowServiceManager alloc] init];
+    _window.rootViewController = [windowManager createRootViewController];
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 

@@ -9,7 +9,6 @@
 #import <XCTest/XCTest.h>
 
 @interface TechnicalTestRMargariaTests : XCTestCase
-
 @end
 
 @implementation TechnicalTestRMargariaTests
