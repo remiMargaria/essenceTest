@@ -28,9 +28,10 @@
 
 - (void)viewDidLoad
 {
+    __weak typeof(self) weakSelf = self;
     [self.interactor fetchPhotos:^(NSArray *photos, NSError *error) {
         if (!error)
-            [self.delegate photosLoaded:photos]; // Here we paass directly the netWork model. Ideally it's better to convert it to a view model
+            [weakSelf.delegate photosLoaded:photos]; // Here we paass directly the netWork model. Ideally it's better to convert it to a view model
         else
             NSLog(@"Error Network");
     }];
