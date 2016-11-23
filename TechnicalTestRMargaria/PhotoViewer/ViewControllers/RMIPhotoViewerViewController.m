@@ -22,6 +22,7 @@
     
     [super viewDidLoad];
     
+    __weak typeof(self) weakSelf = self;
     AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithBaseURL:[NSURL URLWithString:@"https://api-server.essenceprototyping.com:999"]];
     manager.responseSerializer =[[AFHTTPResponseSerializer alloc] init];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/plain"];
@@ -30,7 +31,7 @@
         NSData *data = [[NSData alloc] initWithBase64EncodedString:responseObject options:NSDataBase64DecodingIgnoreUnknownCharacters];
         
         UIImage *image = [UIImage imageWithData:data];
-        self.imageView.image = image;
+        weakSelf.imageView.image = image;
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"Error");
     }];

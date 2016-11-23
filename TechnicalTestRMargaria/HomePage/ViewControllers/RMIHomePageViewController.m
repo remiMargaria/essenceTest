@@ -52,7 +52,7 @@
 - (void)takePicture:(UIButton *)button
 {
     UIImagePickerController *imagePickerViewController = [[UIImagePickerController alloc] init];
-    imagePickerViewController.sourceType = UIImagePickerControllerSourceTypeCamera;
+    imagePickerViewController.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     imagePickerViewController.delegate = self;
     [self presentViewController:imagePickerViewController animated:YES completion:NULL];
 }
